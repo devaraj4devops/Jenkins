@@ -4,7 +4,7 @@
   <groupId>com.citi</groupId>
   <artifactId>citibank_war</artifactId>
   <packaging>war</packaging>
-  <version>1.0-SNAPSHOT</version>
+  <version>1.0</version>
   <name>citibank_war Maven Webapp</name>
   <url>http://maven.apache.org</url>
   <dependencies>
