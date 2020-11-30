@@ -28,7 +28,7 @@ body {
 
 <div class="header">
   <h2>Header</h2>
-  <p>My supercool header updated</p>
+  <p>Welcome to my supercool header updated</p>
 </div>
 
 <div class="content">
