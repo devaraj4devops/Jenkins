@@ -28,7 +28,7 @@ body {
 
 <div class="header">
   <h2>Header</h2>
-  <p>Welcome to my super cool header updated1 </p>
+  <p>Welcome to my super cool header by Devaraj </p>
 
 </div>
 
