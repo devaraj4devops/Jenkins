@@ -2,7 +2,7 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.citi</groupId>
-  <artifactId>citibank_war</artifactId>
+  <artifactId>sample</artifactId>
   <packaging>war</packaging>
   <version>1.0</version>
   <name>citibank_war Maven Webapp</name>
