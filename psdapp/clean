@@ -1,0 +1,54 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------------< com.pp.reddy:psdapp >-------------------------
+[INFO] Building psdapp Maven Webapp 0.0.1-SNAPSHOT
+[INFO] --------------------------------[ war ]---------------------------------
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.7.5.201505241946:prepare-agent (jacoco-initialize) @ psdapp ---
+[INFO] argLine set to -javaagent:C:\\Users\\USER\\.m2\\repository\\org\\jacoco\\org.jacoco.agent\\0.7.5.201505241946\\org.jacoco.agent-0.7.5.201505241946-runtime.jar=destfile=D:\\Dev_Repo\\Technical\\DevOps_Training\\project\\psdapp\\target\\coverage-reports\\jacoco-unit.exec
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ psdapp ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory D:\Dev_Repo\Technical\DevOps_Training\project\psdapp\src\main\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ psdapp ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ psdapp ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory D:\Dev_Repo\Technical\DevOps_Training\project\psdapp\src\test\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ psdapp ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ psdapp ---
+[INFO] Surefire report directory: D:\Dev_Repo\Technical\DevOps_Training\project\psdapp\target\surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.pp.test.MyTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 sec
+
+Results :
+
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] --- maven-war-plugin:2.2:war (default-war) @ psdapp ---
+[INFO] Packaging webapp
+[INFO] Assembling webapp [psdapp] in [D:\Dev_Repo\Technical\DevOps_Training\project\psdapp\target\psdapp]
+[INFO] Processing war project
+[INFO] Copying webapp resources [D:\Dev_Repo\Technical\DevOps_Training\project\psdapp\src\main\webapp]
+[INFO] Webapp assembled in [38 msecs]
+[INFO] Building war: D:\Dev_Repo\Technical\DevOps_Training\project\psdapp\target\psdapp.war
+[INFO] WEB-INF\web.xml already added, skipping
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.7.5.201505241946:report (jacoco-site) @ psdapp ---
+[INFO] Analyzed bundle 'psdapp Maven Webapp' with 1 classes
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  5.766 s
+[INFO] Finished at: 2020-12-02T00:14:44+05:30
+[INFO] ------------------------------------------------------------------------
